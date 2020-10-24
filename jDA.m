@@ -1,11 +1,3 @@
-%-------------------------------------------------------------------------%
-%  Machine learning algorithms source codes demo version                  %
-%                                                                         %
-%  Programmer: Jingwei Too                                                %
-%                                                                         %
-%  E-Mail: jamesjames868@gmail.com                                        %
-%-------------------------------------------------------------------------%
-
 function DA=jDA(feat,label,Disc,kfold)
 switch Disc
   case'l' ; Disc='linear'; 

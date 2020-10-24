@@ -1,11 +1,3 @@
-%-------------------------------------------------------------------------%
-%  Machine learning algorithms source codes demo version                  %
-%                                                                         %
-%  Programmer: Jingwei Too                                                %
-%                                                                         %
-%  E-Mail: jamesjames868@gmail.com                                        %
-%-------------------------------------------------------------------------%
-
 function DT=jDT(feat,label,nSplit,kfold)
 Model=fitctree(feat,label,'MaxNumSplits',nSplit);
 C=crossval(Model,'KFold',kfold); 

@@ -1,11 +1,3 @@
-%-------------------------------------------------------------------------%
-%  Machine learning algorithms source codes demo version                  %
-%                                                                         %
-%  Programmer: Jingwei Too                                                %
-%                                                                         %
-%  E-Mail: jamesjames868@gmail.com                                        %
-%-------------------------------------------------------------------------%
-
 function NB=jNB(feat,label,Dist,kfold)
 switch Dist
 	case'n'; Dist='normal';

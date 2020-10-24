@@ -1,11 +1,3 @@
-%-------------------------------------------------------------------------%
-%  Machine learning algorithms source codes demo version                  %
-%                                                                         %
-%  Programmer: Jingwei Too                                                %
-%                                                                         %
-%  E-Mail: jamesjames868@gmail.com                                        %
-%-------------------------------------------------------------------------%
-
 function RF=jRF(feat,label,nBag,kfold)
 fold=cvpartition(label,'kfold',kfold); 
 pred2=[]; ytest2=[]; Afold=zeros(kfold,1); 

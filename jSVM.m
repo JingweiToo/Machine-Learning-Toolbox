@@ -1,11 +1,3 @@
-%-------------------------------------------------------------------------%
-%  Machine learning algorithms source codes demo version                  %
-%                                                                         %
-%  Programmer: Jingwei Too                                                %
-%                                                                         %
-%  E-Mail: jamesjames868@gmail.com                                        %
-%-------------------------------------------------------------------------%
-
 function SVM=jSVM(feat,label,kernel,kfold)
 switch kernel
 	case'l'; kernel='linear';     
