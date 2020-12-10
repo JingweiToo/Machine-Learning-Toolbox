@@ -44,17 +44,6 @@ opts.fun = 'pl';    % pseudolinear
 opts.fun = 'dq';    % diagquadratic
 ```
 
-## Discriminate Analysis (DA)
-* Selection of discriminate function. You may choose one
-```code 
-opts.fun = 'l';     % linear
-opts.fun = 'pq';    % pseudoquadratic
-opts.fun = 'q';     % quadratic    
-opts.fun = 'dl';    % diaglinear
-opts.fun = 'pl';    % pseudolinear 
-opts.fun = 'dq';    % diagquadratic
-```
-
 ## Naive Bayes (NB)
 * Selection of distribution. You may choose one
 ```code 
