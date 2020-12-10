@@ -13,26 +13,26 @@
 
 ## Usage
 The main function *jml* is used to perform the classification. You may switch the algorithm by simply changes the 'da' to [other abbreviations](/README.md#list-of-available-machine-learning-methods)   
-* If you wish to use discriminate analysis (DA) classifier then you may write
+* If you wish to use discriminate analysis ( DA ) classifier then you may write
 ```code 
 ML = jml('da',feat,label,opts); 
 ```
 
-* If you want to use naive bayes (NB) classifier then you may write
+* If you want to use naive bayes ( NB ) classifier then you may write
 ```code 
 ML = jml('nb',feat,label,opts); 
 ```
 
 ## Input
-* feat    : feature vector matrix (Instance x Features)
-* label   : label matrix (Instance x 1)
+* feat    : feature vector matrix ( Instance x Features )
+* label   : label matrix ( Instance x 1 )
 * opts    : parameter settings
   + tf    : choose either hold-out / *k*-fold / leave-one-out
   + ho    : ratio of testing data in hold-out validation
   + kfold : number of folds in *k*-fold cross-validation
 
 ## Output
-* ML : Machine learning model (It contains several results)  
+* ML : Machine learning model ( It contains several results )  
   + acc : classification accuracy 
   + con : confusion matrix
   + t   : computational time (s)
@@ -55,7 +55,7 @@ opts.tf    = 3
 ```
   
 
-### Example 1: *K*-nearest neighbor (KNN) with *k*-fold cross-validation
+### Example 1 : *K*-nearest neighbor ( KNN ) with *k*-fold cross-validation
 ```code 
 % Parameter settings
 opts.tf    = 2;     
@@ -76,7 +76,7 @@ confmat  = ML.con;
 
 ```
 
-### Example 2: Multi-class support vector machine  (MSVM) with hold-out validation
+### Example 2 : Multi-class support vector machine  ( MSVM ) with hold-out validation
 ```code 
 % Parameter settings
 opts.tf    = 1;     
@@ -97,7 +97,7 @@ confmat  = ML.con;
 
 ```
 
-### Example 3: Decision Tree (DT) with leave-one-out validation
+### Example 3 : Decision Tree ( DT ) with leave-one-out validation
 ```code 
 % Parameter settings
 opts.tf     = 3;          
