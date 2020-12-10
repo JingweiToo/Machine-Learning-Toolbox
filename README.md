@@ -4,7 +4,7 @@
 
 * This toolbox contains 7 widely used machine learning algorithms   
 
-* The < A_Main.m file > shows examples of how to use these machine learning methods with the benchmark data set.  
+* The *A_Main.m file* shows examples of how to use these machine learning methods with the benchmark data set.  
 
 ## Output
 * The displayed results include: 
