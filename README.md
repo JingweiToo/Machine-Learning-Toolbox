@@ -14,11 +14,11 @@
 
 | No. | Abbreviation | Name                               | 
 |-----|--------------|------------------------------------|
-| 8   | KNN          | K-nearest Neighbor                 |
-| 7   | MSVM         | Multi-class Support Vector Machine |
-| 6   | SVM          | Support Vector Machine             |
-| 5   | DT           | Decision Tree                      |
-| 4   | DA           | Discriminate Analysis Classifier   |
-| 3   | NB           | Naive Bayes                        |
-| 2   | RF           | Random Forest                      |
-| 1   | ET           | Ensemble Tree                      |                   
+| 08  | KNN          | K-nearest Neighbor                 |
+| 07  | MSVM         | Multi-class Support Vector Machine |
+| 06  | SVM          | Support Vector Machine             |
+| 05  | DT           | Decision Tree                      |
+| 04  | DA           | Discriminate Analysis Classifier   |
+| 03  | NB           | Naive Bayes                        |
+| 02  | RF           | Random Forest                      |
+| 01  | ET           | Ensemble Tree                      |                   
