@@ -11,6 +11,10 @@
 
 * The < A_Main.m file > provides the examples of how to use these methods on benchmark dataset 
 
+* Main goals of this toolbox are:
+  + Sharing knowledge on machine learning works
+  + Helping others in machine learning projects
+
 ## Usage
 The main function *jml* is used to perform the classification. You may switch the algorithm by simply changes the 'da' to [other abbreviations](/README.md#list-of-available-machine-learning-methods)   
 * If you wish to use discriminate analysis ( DA ) classifier then you may write
@@ -38,7 +42,7 @@ ML = jml('nb',feat,label,opts);
   + t   : computational time (s)
 
 ## How to choose the validation scheme?
-There are three types of validation strategies:
+There are three types of performance validations. These validation strategies are listed as following. However, if you do not select any of them, then the algorithm will automatically perform 10-fold cross-validation as default. 
   + Hold-out validation
 ```code 
 opts.tf    = 1;
