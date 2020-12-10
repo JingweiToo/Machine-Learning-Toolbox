@@ -1,18 +1,38 @@
-# Simple Machine Learning Toolbox for Classification
+# Machine Learning Toolbox for Classification
 
 ![Wheel](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/f9d2bb8c-ebfe-4590-b88c-d4ff92fa6f8f/c4229dd2-aaa5-4146-bafa-4fcccb2b1d30/images/screenshot.PNG) 
 
-* This toolbox contains 7 widely used machine learning algorithms   
+* This toolbox contains 8 widely used machine learning algorithms   
 
-* The < A_Main.m file > shows examples of how to use these machine learning methods with the benchmark dataset.  
+* The < A_Main.m file > provides the examples of how to use these machine learning methods with benchmark dataset 
+
+## Usage
+The main function *jml* is used to perform the classification. You may switch the algorithm by simply changes the 'da' to [others](/README.md##list-of-available-machine-learning-methods)   
+* If you wish to use discriminate analysis (DA) classifier then you shall write
+```code 
+ML = jml('da',feat,label,opts); 
+```
+
+* If you want to use naive bayes (NB) classifier then you shall write
+```code 
+ML = jml('nb',feat,label,opts); 
+```
+
+## Input
+* feat    : feature vector matrix (Instance x Features)
+* label   : label matrix (Instance x 1)
+* opts    : parameter settings
+  + tf    : choose either hold-out / *k*-fold / leave-one-out
+  + ho    : ratio of testing data in hold-out validation
+  + kfold : number of folds in *k*-fold cross-validation
 
 ## Output
-* The displayed results include:  
-  + Overall accuracy 
-  + Confusion matrix
-  + Computational time (s)
+* ML : Machine learning model (It contains several results)  
+  + acc : classification accuracy 
+  + con : confusion matrix
+  + t   : computational time (s)
 
-## Type of validation
+## How to choose the validation scheme?
 There are three types of validation strategies:
   + Hold-out validation
 ```code 
@@ -94,7 +114,7 @@ confmat  = ML.con;
 
 
 ## List of available machine learning methods
-* Click on the name of algorithm to check and set the detailed parameters  
+* Click on the name of algorithm to check and use the *opts* to set the detailed parameters  
 
 | No. | Abbreviation | Name                                                                              | 
 |-----|--------------|-----------------------------------------------------------------------------------|
