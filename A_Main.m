@@ -20,7 +20,7 @@
 
 %% Example 1: K-nearest neighbor (KNN) with k-fold cross-validation
 % Parameter settings
-opts.tf    = 1;     
+opts.tf    = 2;     
 opts.kfold = 10;    
 opts.k     = 5;     % k-value in KNN
 % Load data
