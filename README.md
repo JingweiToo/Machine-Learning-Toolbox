@@ -91,11 +91,12 @@ disp(DT.con)
 
 
 ## List of available machine learning methods
+* Detail parameters of each algorithm can be found at [here](/Description.md)  
 
 | No. | Abbreviation | Name                                   | 
 |-----|--------------|----------------------------------------|
 | 09  | 'gmm'        | Gaussian Mixture Model                 | 
-| 08  | 'knn'        | *K*-nearest Neighbor (./Description.md)|
+| 08  | 'knn'        | *K*-nearest Neighbor                   |
 | 07  | 'msvm'       | Multi-class Support Vector Machine     |
 | 06  | 'svm'        | Support Vector Machine                 |
 | 05  | 'dt'         | Decision Tree                          |
