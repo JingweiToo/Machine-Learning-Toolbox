@@ -91,19 +91,19 @@ disp(DT.con)
 
 
 ## List of available machine learning methods
-* Detail parameters of each algorithm can be found at [here](/Description.md)  
+* Click on the name of algorithm to check and set the detailed parameters  
 
-| No. | Abbreviation | Name                                   | 
-|-----|--------------|----------------------------------------|
-| 09  | 'gmm'        | Gaussian Mixture Model                 | 
-| 08  | 'knn'        | *K*-nearest Neighbor                   |
-| 07  | 'msvm'       | Multi-class Support Vector Machine     |
-| 06  | 'svm'        | Support Vector Machine                 |
-| 05  | 'dt'         | Decision Tree                          |
-| 04  | 'da'         | Discriminate Analysis Classifier       |
-| 03  | 'nb'         | Naive Bayes                            |
-| 02  | 'rf'         | Random Forest                          |
-| 01  | 'et'         | Ensemble Tree                          |                    
+| No. | Abbreviation | Name                                                                              | 
+|-----|--------------|-----------------------------------------------------------------------------------|
+| 09  | 'gmm'        | Gaussian Mixture Model                                                            | 
+| 08  | 'knn'        | [*K*-nearest Neighbor](/Description.md#k-nearest-neighbor-knn)                    |
+| 07  | 'msvm'       | [Multi-class Support Vector Machine](/Description.md#support-vector-machine-svm)  |
+| 06  | 'svm'        | [Support Vector Machine](/Description.md#support-vector-machine-svm)              |
+| 05  | 'dt'         | [Decision Tree](/Description.md#decision-tree-dt)                                 |
+| 04  | 'da'         | [Discriminate Analysis Classifier](/Description.md#discriminate-analysis-da)      |
+| 03  | 'nb'         | [Naive Bayes](/Description.md#naive-bayes-nb)                                     |
+| 02  | 'rf'         | [Random Forest](Description.md#random-forest-rf)                                  |
+| 01  | 'et'         | [Ensemble Tree](Description.md#ensemble-tree-et)                                  |                    
 
 
 
