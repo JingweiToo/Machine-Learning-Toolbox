@@ -9,7 +9,7 @@
 
 * This toolbox contains 8 widely used machine learning algorithms   
 
-* The < A_Main.m file > provides the examples of how to use these machine learning methods with benchmark dataset 
+* The < A_Main.m file > provides the examples of how to use these methods on benchmark dataset 
 
 ## Usage
 The main function *jml* is used to perform the classification. You may switch the algorithm by simply changes the 'da' to [other abbreviations](/README.md#list-of-available-machine-learning-methods)   
