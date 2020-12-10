@@ -1,7 +1,5 @@
 % Machine Learning Toolbox by Jingwei Too - 10/12/2020   
 
-% https://github.com/JingweiToo/Machine-Learning-Toolbox/tree/master
-
 
 %---Input-------------------------------------------------------------
 % feat       : feature vector matrix (Instances x Features)
@@ -22,11 +20,11 @@
 
 %% Example 1: K-nearest neighbor (KNN) with k-fold cross-validation
 % Parameter settings
-opts.tf    = 2;     
+opts.tf    = 1;     
 opts.kfold = 10;    
 opts.k     = 5;     % k-value in KNN
 % Load data
-load iris.mat;
+load iris.mat; 
 % Classification
 ML = jml('knn',feat,label,opts);
 % Accuracy

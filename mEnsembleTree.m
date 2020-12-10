@@ -20,7 +20,7 @@ if tf == 1
   % Train model
   Temp  = templateTree('MaxNumSplits',num_split); 
   Model = fitcensemble(xtrain,ytrain,'Learners',Temp,...
-    'Method','AdaBoostM1');
+    'Method','Bag');
   % Test 
   pred2 = predict(Model,xtest);
   % Accuracy
@@ -41,7 +41,7 @@ elseif tf == 2
     % Train model
     Temp  = templateTree('MaxNumSplits',num_split); 
     Model = fitcensemble(xtrain,ytrain,'Learners',Temp,...
-      'Method','AdaBoostM1');  
+      'Method','Bag');  
     % Test 
     pred = predict(Model,xtest); clear Model
     % Accuracy
@@ -67,7 +67,7 @@ elseif tf == 3
     % Train model
     Temp  = templateTree('MaxNumSplits',num_split); 
     Model = fitcensemble(xtrain,ytrain,'Learners',Temp,...
-      'Method','AdaBoostM1');     
+      'Method','Bag');     
     % Test 
     pred = predict(Model,xtest); clear Model
     % Accuracy
