@@ -8,12 +8,12 @@
 
 ## Usage
 The main function *jml* is used to perform the classification. You may switch the algorithm by simply changes the 'da' to [other abbreviations](/README.md#list-of-available-machine-learning-methods)   
-* If you wish to use discriminate analysis (DA) classifier then you shall write
+* If you wish to use discriminate analysis (DA) classifier then you may write
 ```code 
 ML = jml('da',feat,label,opts); 
 ```
 
-* If you want to use naive bayes (NB) classifier then you shall write
+* If you want to use naive bayes (NB) classifier then you may write
 ```code 
 ML = jml('nb',feat,label,opts); 
 ```
@@ -114,7 +114,8 @@ confmat  = ML.con;
 
 
 ## List of available machine learning methods
-* Click on the name of algorithm to check and use the *opts* to set the detailed parameters  
+* Click on the name of algorithm to check the parameters 
+* Use the *opts* to set the specific parameters  
 
 | No. | Abbreviation | Name                                                                              | 
 |-----|--------------|-----------------------------------------------------------------------------------|
