@@ -92,21 +92,18 @@ disp(DT.con)
 
 ## List of available machine learning methods
 
-| No. | Abbreviation | Name                               | 
-|-----|--------------|------------------------------------|
-| 09  | 'gmm'        | Gaussian Mixture Model             | 
-| 08  | 'knn'        | *K*-nearest Neighbor [KNN]         |
-| 07  | 'msvm'       | Multi-class Support Vector Machine |
-| 06  | 'svm'        | Support Vector Machine             |
-| 05  | 'dt'         | Decision Tree                      |
-| 04  | 'da'         | Discriminate Analysis Classifier   |
-| 03  | 'nb'         | Naive Bayes                        |
-| 02  | 'rf'         | Random Forest                      |
-| 01  | 'et'         | Ensemble Tree                      |                   
+| No. | Abbreviation | Name                                   | 
+|-----|--------------|----------------------------------------|
+| 09  | 'gmm'        | Gaussian Mixture Model                 | 
+| 08  | 'knn'        | *K*-nearest Neighbor (./Description.md)|
+| 07  | 'msvm'       | Multi-class Support Vector Machine     |
+| 06  | 'svm'        | Support Vector Machine                 |
+| 05  | 'dt'         | Decision Tree                          |
+| 04  | 'da'         | Discriminate Analysis Classifier       |
+| 03  | 'nb'         | Naive Bayes                            |
+| 02  | 'rf'         | Random Forest                          |
+| 01  | 'et'         | Ensemble Tree                          |                    
 
-## Detail Parameters 
-
-[KNN]
 
 
 
