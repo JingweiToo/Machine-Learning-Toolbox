@@ -24,7 +24,7 @@ opts.ho    = 0.3;   % 30% data for testing
 opts.tf    = 2
 opts.kfold = 10;    % 10-fold cross-validation
 ```
-+ Leave-one-out validation
+  + Leave-one-out validation
 ```code 
 opts.tf    = 3 
 ```
@@ -41,12 +41,13 @@ opts.k     = 3;     % k-value in KNN
 load iris.mat;
 
 % Classification
-KNN = jml('knn',feat,label,opts);
+ML = jml('knn',feat,label,opts);
 
 % Accuracy
-disp(KNN.acc) 
+accuracy = ML.acc; 
+
 % Confusion matrix
-disp(KNN.con)
+confmat  = ML.con;
 
 ```
 
@@ -61,12 +62,13 @@ opts.fun   = 'r';     % radial basis kernel function in SVM
 load iris.mat;
 
 % Classification
-MSVM = jml('msvm',feat,label,opts);
+ML = jml('msvm',feat,label,opts);
 
 % Accuracy
-disp(MSVM.acc) 
+accuracy = ML.acc; 
+
 % Confusion matrix
-disp(MSVM.con)
+confmat  = ML.con;
 
 ```
 
@@ -80,12 +82,13 @@ opts.nSplit = 50;    % number of split in DT
 load iris.mat;
 
 % Classification
-DT = jml('dt',feat,label,opts);
+ML = jml('dt',feat,label,opts);
 
 % Accuracy
-disp(DT.acc) 
+accuracy = ML.acc; 
+
 % Confusion matrix
-disp(DT.con)
+confmat  = ML.con;
 
 ```
 
