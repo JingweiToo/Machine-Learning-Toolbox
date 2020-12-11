@@ -1,7 +1,7 @@
 # Machine Learning Toolbox for Classification
 
 ---
-> "Toward talent scientist: Sharing and learning together"
+> "Toward Talent Scientist: Sharing and Learning Together"
 >  --- [Jingwei Too](https://jingweitoo.wordpress.com/)
 ---
 
