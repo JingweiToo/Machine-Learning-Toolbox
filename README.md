@@ -1,4 +1,4 @@
-# Machine Learning Toolbox for Classification
+# Jx-MLT : A Machine Learning Toolbox for Classification
 
 ---
 > "Toward Talent Scientist: Sharing and Learning Together"
