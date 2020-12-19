@@ -28,18 +28,18 @@ ML = jml('nb',feat,label,opts);
 ```
 
 ## Input
-* feat    : feature vector matrix ( Instance x Features )
-* label   : label matrix ( Instance x 1 )
-* opts    : parameter settings
-  + tf    : choose either hold-out / *k*-fold / leave-one-out
-  + ho    : ratio of testing data in hold-out validation
-  + kfold : number of folds in *k*-fold cross-validation
+* *feat*    : feature vector matrix ( Instance *x* Features )
+* *label*   : label matrix ( Instance *x* 1 )
+* *opts*    : parameter settings
+  + *tf*    : choose either hold-out / *k*-fold / leave-one-out
+  + *ho*    : ratio of testing data in hold-out validation
+  + *kfold* : number of folds in *k*-fold cross-validation
 
 ## Output
-* ML : Machine learning model ( It contains several results )  
-  + acc : classification accuracy 
-  + con : confusion matrix
-  + t   : computational time (s)
+* *ML* : Machine learning model ( It contains several results )  
+  + *acc* : classification accuracy 
+  + *con* : confusion matrix
+  + *t*   : computational time (s)
 
 ## How to choose the validation scheme?
 There are three types of performance validations. These validation strategies are listed as following. However, if you do not select any of them, then the algorithm will automatically perform 10-fold cross-validation as default. 
