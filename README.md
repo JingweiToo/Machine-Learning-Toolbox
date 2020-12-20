@@ -77,7 +77,6 @@ accuracy = ML.acc;
 
 % Confusion matrix
 confmat  = ML.con;
-
 ```
 
 ### Example 2 : Multi-class support vector machine  ( MSVM ) with hold-out validation
@@ -98,7 +97,6 @@ accuracy = ML.acc;
 
 % Confusion matrix
 confmat  = ML.con;
-
 ```
 
 ### Example 3 : Decision Tree ( DT ) with leave-one-out validation
@@ -118,7 +116,6 @@ accuracy = ML.acc;
 
 % Confusion matrix
 confmat  = ML.con;
-
 ```
 
 
