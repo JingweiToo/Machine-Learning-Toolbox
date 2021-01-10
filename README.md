@@ -131,15 +131,15 @@ confmat  = ML.con;
 
 | No. | Abbreviation | Name                                                                              | Support      |
 |-----|--------------|-----------------------------------------------------------------------------------|--------------|
-| 09  | '`gmm`'      | Gaussian Mixture Model                                                            | Multi-class  |
-| 08  | '`knn`'      | [*K*-nearest Neighbor](/Description.md#k-nearest-neighbor-knn)                    | Multi-class  |
-| 07  | '`msvm`'     | [Multi-class Support Vector Machine](/Description.md#support-vector-machine-svm)  | Multi-class  |
-| 06  | '`svm`'      | [Support Vector Machine](/Description.md#support-vector-machine-svm)              | Binary class |
-| 05  | '`dt`'       | [Decision Tree](/Description.md#decision-tree-dt)                                 | Multi-class  |
-| 04  | '`da`'       | [Discriminate Analysis Classifier](/Description.md#discriminate-analysis-da)      | Multi-class  |
-| 03  | '`nb`'       | [Naive Bayes](/Description.md#naive-bayes-nb)                                     | Multi-class  |
-| 02  | '`rf`'       | [Random Forest](Description.md#random-forest-rf)                                  | Multi-class  |
-| 01  | '`et`'       | [Ensemble Tree](Description.md#ensemble-tree-et)                                  | Multi-class  |                  
+| 09  | `'gmm'`      | Gaussian Mixture Model                                                            | Multi-class  |
+| 08  | `'knn'`      | [*K*-nearest Neighbor](/Description.md#k-nearest-neighbor-knn)                    | Multi-class  |
+| 07  | `'msvm'`     | [Multi-class Support Vector Machine](/Description.md#support-vector-machine-svm)  | Multi-class  |
+| 06  | `'svm'`      | [Support Vector Machine](/Description.md#support-vector-machine-svm)              | Binary class |
+| 05  | `'dt'`       | [Decision Tree](/Description.md#decision-tree-dt)                                 | Multi-class  |
+| 04  | `'da'`       | [Discriminate Analysis Classifier](/Description.md#discriminate-analysis-da)      | Multi-class  |
+| 03  | `'nb'`       | [Naive Bayes](/Description.md#naive-bayes-nb)                                     | Multi-class  |
+| 02  | `'rf'`       | [Random Forest](Description.md#random-forest-rf)                                  | Multi-class  |
+| 01  | `'et'`       | [Ensemble Tree](Description.md#ensemble-tree-et)                                  | Multi-class  |                  
 
 
 
