@@ -1,5 +1,6 @@
 # Jx-MLT : A Machine Learning Toolbox for Classification 
 [![View Machine Learning Toolbox on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/71461-machine-learning-toolbox)
+[![GitHub License](https://img.shields.io/badge/license-BSD_3-yellow.svg)](https://github.com/JingweiToo/Machine-Learning-Toolbox/blob/master/LICENSE)
 
 ---
 > "Toward Talent Scientist: Sharing and Learning Together"
