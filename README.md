@@ -130,7 +130,7 @@ confmat  = ML.con;
 
 ## List of available machine learning methods
 * Click on the name of algorithm to check the parameters 
-* Use the *opts* to set the specific parameters  
+* Use the *`opts`* to set the specific parameters  
 
 | No. | Abbreviation | Name                                                                              | Support      |
 |-----|--------------|-----------------------------------------------------------------------------------|--------------|
